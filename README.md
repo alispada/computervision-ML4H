@@ -4,7 +4,7 @@
 
 **Notebook**: [technique_recognition.ipynb](technique_recognition.ipynb), with the dataprocessing and the training of the EfficientNet-B0 model for art techniques recognition. 
 
-**Dataset folder**: this folder contains the [toy_dataset_label.csv](toy_dataset_label.csv), used for the model training. For limited space reasons, the entire dataset with the images used was not uploaded in this repository. The zipped version can be dowloaded at the following link: (to be created) In order to reproduce the training it is required that, once downloaded and unzipped on your local computer, the folder is placed inside the dataset folder.  
+**Dataset folder**: this folder contains the [toy_dataset_label.csv](dataset/toy_dataset_label.csv), used for the model training. For limited space reasons, the entire dataset with the images used was not uploaded in this repository. The zipped version can be dowloaded at the following link: (to be created) In order to reproduce the training it is required that, once downloaded and unzipped on your local computer, the folder is placed inside the dataset folder.  
 
 **Model folder**: It contains the trained model which is a fine tuning of the EfficientNet-B0 architecture, pretrained on the  ImageNet database and subsequently adapted for the role of art technique recognition.
 
